@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+.parag1{
+  color:blue;
+  font-size:40px;
+  font-style:italic;
+  font-weight:bold;
+  text-decoration:underline;
+  display:inline;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation{
+  font-size:20px;
+  margin-left:850px;
+  display:flex;
+  list-style: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#des a,select{
+margin-left:30px;
+text-decoration:none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.select{
+  font-size:15px;
+}
+#div1{
+  color:blue;
+  /*font-size:50px;*/
+  text-align:center;
+}
+#div2{
+  /*font-size:30px;*/
+  text-align:center;
+}
+.photo{
+  border-radius: 200px;
+  height:300px;
+  width:250px;
+}
+.section2{
+  color:blue;
+  font-size:20px;
+  display:inline;
+}
+.section3{
+  margin-left:20px;
+  display:inline; 
+}
+#lien{
+  margin-left:600px;
+  text-decoration:none;
+  font-size:20px;
+}
+.profil{
+  display:flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  padding:40px;
 }
-
-.App-link {
-  color: #61dafb;
+.name{
+  color:rgba(122, 27, 122, 0.705);
+  margin-left: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.poste{
+  color:rgba(128, 0, 128, 0.623);
+  margin-left: 140px;
+}
+.module{
+  border-radius: 5px;
+  margin:10px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  height:400px;
+  width:400px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+.module:hover{
+  background-color:white;
+  box-shadow: 0 5px 10px 0 #747474;
+}
+.couleur{
+  text-decoration: none;
+}
+.couleur:hover{
+  color: #747474;
+}
+.boutton{
+  margin-left:200px;
+  font-size: .625rem;
+  padding: 1em 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  background: #3d83df;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right:10px;
+}
+.moduletaille{
+  padding:5px;
+  width:350px;
+  height:300px;
+  margin-bottom: 20px;
+}
+.subject{
+  text-decoration: none;
+  padding:10px;
+}
+.pro{
+  display:flex;
+  flex-wrap: wrap;
 }
