@@ -2,68 +2,31 @@ import React from "react";
 import Subproject from "./Subproject"
 import '../../src/App.css';
 
-/*const modules = [
-    {
-      href: "#",
-      source: "#",
-      task: "",
-    },
-    {
-      href: "#",
-      source: "#",
-      task: "",
-    },
-    {
-      href: "#",
-      source: "#",
-      task: "",
-    },
-  ]
-
-     function Project() {
-    return (
-        <div>
-            <h2 id="ancre Projects"> Projects </h2>
-            <div className="pro">
-                <Subproject  modules={modules}/>
-                <Subproject />
-                <Subproject />
-                <Subproject />
-                <Subproject />
-                <Subproject />
-            </div>
-        </div>
-
-    );
-}*/
-
 const modules = [
     {
-        href: "#",
+        href: "https://drive.google.com/drive/folders/1Ev5Cl7M1xkUkSDjxkC0OvUJfmbbNg1sr",
         link: "Docplanner",
     },
     {
-        href: "#",
+        href: "https://drive.google.com/drive/folders/17JCU9R1PoKFBlyJQKwxADfyWWU6vvRDn",
         link: "ShoppingCart",
     },
     {
-        href: "#",
-        link: "Contact",
+        href: "https://github.com/zouhourbahri/reactprops",
+        link: "ReactProps",
     },
 ]
 
 function Project() {
     return (
         <div>
-            <h2 id="ancre Projects"> Projects </h2>
-            <div className="pro">
-                <div>
+            <h2 className="title" id="ancre Projects"> Projects </h2>
+                <div className="pro">
                     {modules.map((currentmodule, i) => (
-                        <Subproject key={i} Subproject={currentmodule} />
+                        <Subproject key={i} currentmodule={currentmodule} />
                     ))}
-                    {/* <Subproject module={{}} /> */}
                 </div>
-            </div>
+            <hr />
         </div>
     );
 }

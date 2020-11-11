@@ -1,15 +1,12 @@
 import React from "react";
 import coding from "./image/coding.jpg"
 
-function Subproject( { href, link }) {
+function Subproject( {currentmodule}) {
     return (
-        <div>
             <div className="module">
                 <img src={coding} alt="" className="moduletaille" />
-               <a className="couleur" href= {href} > {Subproject.link} </a>
+               <a className="couleur" href= {currentmodule.href}> {currentmodule.link} </a>
             </div>
-            <hr />
-        </div>
     )
 }
 

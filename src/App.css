@@ -78,6 +78,7 @@ text-decoration:none;
 }
 .couleur{
   text-decoration: none;
+  margin-left: 150px;
 }
 .couleur:hover{
   color: #747474;
@@ -116,4 +117,9 @@ text-decoration:none;
 .pro{
   display:flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+.title{
+  text-align: center;
+  color: rgb(163, 24, 24);
 }
